@@ -1,0 +1,46 @@
+object FrameTime: TFrameTime
+  Align = Top
+  Size.Width = 339.000000000000000000
+  Size.Height = 60.000000000000000000
+  Size.PlatformDefault = False
+  object recBackground: TRectangle
+    Align = Client
+    Fill.Color = xFFC6C6C6
+    Margins.Left = 6.000000000000000000
+    Margins.Top = 6.000000000000000000
+    Margins.Right = 6.000000000000000000
+    Margins.Bottom = 6.000000000000000000
+    Size.Width = 327.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 5.000000000000000000
+    YRadius = 5.000000000000000000
+    object btnSelecionar: TSpeedButton
+      Align = Right
+      Position.X = 272.000000000000000000
+      Size.Width = 55.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'addtoolbuttonbordered'
+      Text = 'btnSelecionar'
+      OnClick = btnSelecionarClick
+    end
+    object imgTime: TImage
+      MultiResBitmap = <
+        item
+        end>
+      Align = Left
+      Size.Width = 50.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object lblTime: TLabel
+      Align = Client
+      Size.Width = 222.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+    end
+  end
+end

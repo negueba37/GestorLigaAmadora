@@ -1,0 +1,326 @@
+object FrameResultado: TFrameResultado
+  Align = Top
+  Margins.Top = 10.000000000000000000
+  Size.Width = 448.000000000000000000
+  Size.Height = 218.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle5: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Padding.Left = 10.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Margins.Left = 6.000000000000000000
+    Margins.Top = 6.000000000000000000
+    Margins.Right = 6.000000000000000000
+    Margins.Bottom = 6.000000000000000000
+    Size.Width = 436.000000000000000000
+    Size.Height = 206.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 10.000000000000000000
+    YRadius = 10.000000000000000000
+    object Layout6: TLayout
+      Align = Top
+      Position.X = 10.000000000000000000
+      Position.Y = 42.000000000000000000
+      Size.Width = 416.000000000000000000
+      Size.Height = 73.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object Label7: TLabel
+        Align = Center
+        AutoSize = True
+        StyledSettings = [Family, Style, FontColor]
+        Size.Width = 36.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'X'
+        TabOrder = 0
+      end
+      object Rectangle1: TRectangle
+        Align = Scale
+        Fill.Color = xFFFBFBFB
+        Padding.Left = 5.000000000000000000
+        Padding.Top = 5.000000000000000000
+        Padding.Right = 5.000000000000000000
+        Padding.Bottom = 5.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 186.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFFD0D0D0
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+        object lblAspMandante: TLabel
+          Align = Client
+          StyledSettings = [Family, Style, FontColor]
+          Size.Width = 139.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = '...'
+          TabOrder = 1
+        end
+        object lblGolAspMandante: TLabel
+          Align = Right
+          Position.X = 144.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 37.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = '0'
+          TabOrder = 0
+        end
+      end
+      object Rectangle2: TRectangle
+        Align = Scale
+        Fill.Color = xFFFBFBFB
+        Padding.Left = 5.000000000000000000
+        Padding.Top = 5.000000000000000000
+        Padding.Right = 5.000000000000000000
+        Padding.Bottom = 5.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 224.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 185.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFFD0D0D0
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+        object lblAspVisitante: TLabel
+          Align = Client
+          StyledSettings = [Family, Style, FontColor]
+          Size.Width = 138.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Trailing
+          Text = '...'
+          TabOrder = 1
+        end
+        object lblGolAspVisitante: TLabel
+          Align = Left
+          Position.X = 5.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 37.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = '0'
+          TabOrder = 0
+        end
+      end
+      object Label10: TLabel
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Size.Width = 416.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = 'Aspirante'
+        TabOrder = 2
+      end
+    end
+    object Layout1: TLayout
+      Align = Top
+      Margins.Top = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 416.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object Image1: TImage
+        MultiResBitmap = <
+          item
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0231494441545847CDD74D48155118C6F149DAE4C2B20CCB36599BA256B61084
+              A05C882E2AB3486867DBA0DA890BB7E2C65D84AB5C8986E2AA45EE94880822DA
+              4865419A1581D0074445E2C7FF39DC23C3BD337366CE9D111FF8713D73CBE79D
+              B93373C7A0E09CC0437CC62CCE63C772122BF88719AC62030F508742132EEFD4
+              06528F316CE20D6A514874D83F215C1ECE4D6888FB6695735CE5363A12FA383A
+              F69865101CC40D1C302B77B4073AB9F4B9DA34630E8DE8C613C445E7C007BCD6
+              E212FE40BF348B7ED8A87C19AE3D0F671A3F75049EE2307AB50169A342E538E6
+              9166CF6D2E630A135A686F46F5834754BE842C7BAEF2FFD095A0A1BD07F029BF
+              025B7E441B149F01AA297F8BED7225EB003EE53A376CF9516D0827CB00B9972B
+              6907A8A6FC1D22CB953403F8945F85B35C710D506D79933624C535C0736429EF
+              41EA72256980D3D0FB8366E58E2D5F44B8BCA1F41A99A401FAA0F72F98557254
+              BE86F272DDED748BD77DA02235A5D7B8B4621D2FCD2A3ED7F0081F71115F61A3
+              0791FDD0175645D20CB080DF66151D954F4227AACABF20759206D023D359BC30
+              ABE85C872DD7C794A95C491AE01CF6A27C001DD20E0C415FA7DEE54AD2002DA5
+              573D33DCC538DEE33BF4883D8067C87CD8CB1377157441EF593AC35F41FFF616
+              CE204D4E41FFFF9E5945246E001D7E3D27DE461BF6C127DE03E495C4015C9761
+              E1D91503FC802EADA2627FB7AE9E8AE8121BC11D3CC62FE41DDD2334C43144DE
+              510F6118DFA0AFDD3CFD85FE4E68474482600B3DDFBD556AB86D400000000049
+              454E44AE426082}
+            FileName = 'C:\Projetos\LigaGestor\src\Files\Images\editar.png'
+          end>
+        Align = Right
+        Opacity = 0.500000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 332.000000000000000000
+        Size.Width = 32.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = Image1Click
+      end
+      object Image2: TImage
+        MultiResBitmap = <
+          item
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0196494441545847ED96CD2E443118860F99883036ECD9720B62870877C19EDB
+              C072EC67EE82057658BA090937E02F227EDEB7D3EFE8F47C353D4E2B23F1244F
+              3AED39F3B6FDA667668A9A4CC04378073F3C6FE101E43DD9E004FEC4BEFB301B
+              DC25275936BD415620AFF19E6CC82E430CBB5E61DCB6C2023C872F50C25C05ED
+              1A15B46BCC3C83F3300827D7DE9CD2531844763E6B7A699983CCE61C416495B9
+              A8E4FB67E0D719B3AD9073F72EE5BC7E052E6D9B930BDB06D983AC44C7F4D270
+              0499B96B7A0EDA1978B06DDBB629902CC92EA9B3802BE8972F762CB8008D2DC8
+              721D9BDE171CF30F69ECD809E4D8A6E9398CE447706FDB19DBA640B224BBE44F
+              1DC2268CEE0234B8A877F806DDAFEAD813EF8F318359CCAC6C58AB006F7C82BC
+              36C581864C43663D42660FA02D8048A9523C0992A1963FB400795C529C03C9A8
+              3C82645805522EA05605FE172037BB87907F56FC5FB998B16F0F61881EE4B3BC
+              6D7ACDD881CCEA9A9E47A80237B65D87ADFECB1F310937FA2FCBCC2896E03394
+              6FB5A6326B11D6620D5EC357A885C6C8F73263152A14C527382FBB7CE6A24D07
+              0000000049454E44AE426082}
+            FileName = 'C:\Projetos\LigaGestor\src\Files\Images\trash.png'
+          end>
+        Align = Right
+        Opacity = 0.500000000000000000
+        Position.X = 384.000000000000000000
+        Size.Width = 32.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = Image2Click
+      end
+    end
+    object Layout2: TLayout
+      Align = Top
+      Position.X = 10.000000000000000000
+      Position.Y = 115.000000000000000000
+      Size.Width = 416.000000000000000000
+      Size.Height = 73.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Label1: TLabel
+        Align = Center
+        AutoSize = True
+        StyledSettings = [Family, Style, FontColor]
+        Size.Width = 36.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'X'
+        TabOrder = 0
+      end
+      object Rectangle3: TRectangle
+        Align = Scale
+        Fill.Color = xFFFBFBFB
+        Padding.Left = 5.000000000000000000
+        Padding.Top = 5.000000000000000000
+        Padding.Right = 5.000000000000000000
+        Padding.Bottom = 5.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 186.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFFD0D0D0
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+        object lblTitMandante: TLabel
+          Align = Client
+          StyledSettings = [Family, Style, FontColor]
+          Size.Width = 139.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = '...'
+          TabOrder = 1
+        end
+        object lblGolTitMandante: TLabel
+          Align = Right
+          Position.X = 144.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 37.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = '0'
+          TabOrder = 0
+        end
+      end
+      object Rectangle4: TRectangle
+        Align = Scale
+        Fill.Color = xFFFBFBFB
+        Padding.Left = 5.000000000000000000
+        Padding.Top = 5.000000000000000000
+        Padding.Right = 5.000000000000000000
+        Padding.Bottom = 5.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 224.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 185.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFFD0D0D0
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+        object lblTitVisitante: TLabel
+          Align = Client
+          StyledSettings = [Family, Style, FontColor]
+          Size.Width = 138.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Trailing
+          Text = '...'
+          TabOrder = 1
+        end
+        object lblGolTitVisitante: TLabel
+          Align = Left
+          Position.X = 5.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 37.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = '0'
+          TabOrder = 0
+        end
+      end
+      object Label6: TLabel
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Size.Width = 416.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = 'Titular'
+        TabOrder = 3
+      end
+    end
+  end
+  object ShadowEffect1: TShadowEffect
+    Distance = 3.000000000000000000
+    Direction = 45.000000000000000000
+    Softness = 0.300000011920929000
+    Opacity = 0.600000023841857900
+    ShadowColor = claBlack
+  end
+end
